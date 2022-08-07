@@ -2,8 +2,12 @@ package com.getworld.controlefinanceiro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
+import com.getworld.controlefinanceiro.activity.CadastroActivity;
+import com.getworld.controlefinanceiro.activity.LoginActivity;
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 
@@ -32,7 +36,6 @@ public class MainActivity extends IntroActivity {
         addSlide( new FragmentSlide.Builder()
                 .background(android.R.color.holo_red_light)
                 .fragment(R.layout.intro_4)
-                .canGoForward(false)
                 .build());
 
         addSlide( new FragmentSlide.Builder()
@@ -40,6 +43,20 @@ public class MainActivity extends IntroActivity {
                 .fragment(R.layout.intro_cadastro)
                 .canGoForward(false)
                 .build());
+
+    }
+
+    public void btEntrar(View view){
+
+        //startar activity
+        startActivity(new Intent(this, LoginActivity.class));
+
+    }
+
+    public void btCadastrar(View view){
+
+        //startar activity
+        startActivity(new Intent(this, CadastroActivity.class));
 
     }
 }
