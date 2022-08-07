@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1000451575733",
+    "project_id": "controle-financeiro-241b3",
+    "storage_bucket": "controle-financeiro-241b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000451575733:android:0b801da6a1ed2ccf1293fc",
+        "android_client_info": {
+          "package_name": "com.getworld.controlefinanceiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000451575733-mb5lqfskcjk07gdptorlth57jbgl0u55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getworld.controlefinanceiro",
+            "certificate_hash": "56986947b5221a438ba350f961773d89119c852d"
+          }
+        },
+        {
+          "client_id": "1000451575733-3s827u7ojit5n54g496gkksjlmnhfgho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc4hM9RcMWu6NFDw6QGYc79MXyFZ3Q3cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000451575733-3s827u7ojit5n54g496gkksjlmnhfgho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
