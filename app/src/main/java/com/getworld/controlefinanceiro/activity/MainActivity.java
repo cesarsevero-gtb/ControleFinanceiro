@@ -1,4 +1,4 @@
-package com.getworld.controlefinanceiro;
+package com.getworld.controlefinanceiro.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.getworld.controlefinanceiro.R;
 import com.getworld.controlefinanceiro.activity.CadastroActivity;
 import com.getworld.controlefinanceiro.activity.LoginActivity;
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
